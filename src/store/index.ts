@@ -1,8 +1,12 @@
-import { createPinia } from "pinia";
-import { useTagsStore } from "./modules/tags";
+import { createPinia } from 'pinia';
+import { useUserStore } from './modules/user';
+import { useTagsStore } from './modules/tags';
+import { useMenuStore } from './modules/menu';
 
 export {
-  useTagsStore
+  useTagsStore,
+  useUserStore,
+  useMenuStore
 }
 
 export default createPinia()

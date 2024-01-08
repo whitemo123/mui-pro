@@ -20,7 +20,7 @@ export default ({mode, command}) => {
       port: 1111,
       proxy: {
         '/api': {
-          target: 'https://saber.bladex.cn',
+          target: 'https://taah-gift.vpn.yesaiot.com',
           changeOrigin: true,
           ws: true
         }

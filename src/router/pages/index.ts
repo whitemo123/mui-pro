@@ -35,6 +35,10 @@ const pages: RouteRecordRaw[] = [
   {
     path: '/',
     redirect: '/wel'
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    component: () => import( /* webpackChunkName: "page" */ '@/pages/error/404.vue'),
   }
 ]
 

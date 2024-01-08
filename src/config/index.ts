@@ -12,9 +12,9 @@ const config: IConfig = {
   // 接口超时时间
   apiTimeOut: 60 * 1000,
   // 请求头token
-  authorization: 'Blade-Auth',
+  authorization: 'Authorization',
   // 接口业务code白名单
-  codeWhiteList: [],
+  codeWhiteList: [0],
   // 路由键映射关系
   menu: {
     path: 'path',

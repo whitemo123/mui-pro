@@ -9,6 +9,7 @@ import '@/assets/css/index.less'
 import store from '@/store'
 // 路由
 import router from '@/router'
+import '@/router/permission'
 // vue 错误监听
 import error from './plugins/error'
 
