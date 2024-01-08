@@ -9,7 +9,8 @@ const pages: RouteRecordRaw[] = [
     meta: {
       keepAlive: true,
       isTab: false,
-      isAuth: false
+      isAuth: false,
+      title: '登录'
     }
   },
   {
@@ -19,7 +20,8 @@ const pages: RouteRecordRaw[] = [
     meta: {
       keepAlive: true,
       isTab: false,
-      isAuth: false
+      isAuth: false,
+      title: '页面没找到'
     }
   },
   {
@@ -29,7 +31,8 @@ const pages: RouteRecordRaw[] = [
     meta: {
       keepAlive: true,
       isTab: false,
-      isAuth: false
+      isAuth: false,
+      title: '页面错误'
     }
   },
   {

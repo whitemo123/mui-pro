@@ -24,6 +24,8 @@ export interface IConfig {
   authorization: string;
   // 接口业务code白名单
   codeWhiteList: number[];
+  // router白名单(注意：这里需要填写的是route.name的值)
+  routerWhiteList: string[];
   // 路由键映射关系
   menu: IMenu;
 }

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@arco-design/web-vue": "^2.54.1",
+    "js-base64": "^3.7.5",
     "normalize.css": "^8.0.1",
     "nprogress": "^0.2.0",
     "pinia": "^2.1.7",

@@ -11,6 +11,17 @@ export const useMenuStore = defineStore('menu', () => {
   // menu数组
   const menus = ref<RouteRecordRaw[]>([])
 
+  // 菜单收缩
+  const collapsed = ref(false)
+
+  /**
+   * 设置菜单收缩状态
+   * @param status 收缩状态
+   */
+  const setCollapsed = (status: boolean) => {
+    collapsed.value = status;
+  }
+
   /**
    * 设置菜单
    * @param data 
@@ -27,8 +38,10 @@ export const useMenuStore = defineStore('menu', () => {
   }
 
   return {
+    collapsed,
     added,
     menus,
-    getServerMenus
+    getServerMenus,
+    setCollapsed
   }
 })

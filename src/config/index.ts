@@ -15,6 +15,8 @@ const config: IConfig = {
   authorization: 'Authorization',
   // 接口业务code白名单
   codeWhiteList: [0],
+  // router白名单(注意：这里需要填写的是route.name的值)
+  routerWhiteList: [],
   // 路由键映射关系
   menu: {
     path: 'path',
